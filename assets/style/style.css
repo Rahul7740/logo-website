@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1190px;
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+  }
+  
+  button {
+    outline: none;
+    border: none;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  /* common css start */
+  body{
+    background-color: #F0ECEB;
+  }
+  .all-sections{
+    margin: 62px 0;
+  }
+  .s-font{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+  }
+  .q-font{
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+  }
+  .all-headings{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #FE0150;
+    text-align: center;
+  }
+  .all-para{
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    color: #706E6E;
+    font-size: 20px;
+  }
+  .size-32{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .t-align{
+    text-align: center;
+  }
+  .margin-b-50{
+    margin-bottom: 50px;
+  }
+  /* common css end */
+
+
+  /* header section css start */
+  .logo-div{
+    display: flex;
+  }
+  .menu-btn{
+    display: none;
+  }
+  .main-logo{
+    margin: 0 auto;
+  }
+  /* header section css end */
+
+  /* menu section css start */
+  .menu{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+  }
+  /* menu section css end */
+
+  /* best you section start */
+  .best-you-m-div{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin-right: -251px;
+
+  }
+  .best-you-details{
+    margin-top:138px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .button1{
+    color: #FE0150;
+    border: 1px solid #FE0150;
+    border-radius: 15px ;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  .button1:hover{
+    box-shadow: 1px 1px 40px #fe015196;
+    background-color: #fe015156;
+  }
+  
+  /* best you section end */
+ /* retreat section css start */
+ .full-divs{
+  display: flex;
+  justify-content: space-between;
+  gap: 111px;
+  margin-top: 80px;
+ }
+ .retreat-divs-details{
+  max-width: 348px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 65px;
+ }
+ /* retreat section css end */
+ /* healing-t css start */
+ .healing-t-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 15px;
+  position: relative;
+ }
+
+.left-s-btn{
+  position: absolute;
+  left: -35px;
+  top: 50%;
+  transform: translatey(-50px);
+}
+.right-s-btn{
+  position: absolute;
+  right: -35px;
+  top: 50%;
+  transform: translatey(-50px);
+}
+
+
+
+
+ .healing-t-divs{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #C8C4C3;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
+ }
+ .healing-t-divs-deatails{
+  padding: 28px 35px;
+  line-height: 35px;
+ }
+ /* healing-t css end */
+ /* book-now section css start */
+ .book-now-section{
+  max-width: 948px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+  text-align: center;
+ }
+ .book-now-btns{
+  display: flex;
+  gap: 50px;
+ }
+ .max-w-576{
+  max-width: 576px;
+  width: 100%;
+ }
+ /* book-now section css end */
+
+/* download-book section css start */
+.download-b-full-div{
+  display: flex;
+  justify-content: space-between;
+  gap: 116px;
+  margin: 140px 0;
+}
+.download-book-img{
+  position: relative;
+  z-index: 99;
+}
+.download-b-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 85px;
+  justify-content: center;
+  position: relative;
+  z-index: 9;
+}
+.overlay{
+  position: absolute;
+  background-color: #EDD9D2;
+  width: 918px;
+  height: 500px;
+  z-index: -1;
+  right: -260px;
+  border-radius: 15px;
+}
+/* download-book section css end */
+
+.overlay-left{
+  position: absolute;
+  background-color: #EDD9D2;
+  width: 918px;
+  height: 500px;
+  z-index: -1;
+  left: -260px;
+  border-radius: 15px;
+}
+
+
+ /* footer section start */
+ .footer-section{
+  background-color: #2C322E;
+  padding: 80px 150px 30px 150px;
+  margin-bottom: 0;
+ }
+ .t-color-white{
+  color: #D3D3D3;
+ }
+ .email-f-div{
+  max-width: 610px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+  text-align: center;
+ }
+ .email123{
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  
+ }
+ /* footer- menu section start */
+ .footer-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0 50px 0;
+ }
+ .f-m-div{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 413px;
+  width: 100%;
+ }
+ .footer-m-headings{
+  font-size: 20px;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  color: #D3D3D3;
+ }
+ .footer-m-links{
+  font-size: 14px;
+  color: #D3D3D3;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 400;
+ }
+ /* footer- menu section end */
+
+ /* footer - contect section start */
+  .footer-contects-div{
+    padding-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contects-icons{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+ /* footer - contect section end */
+ /* footer section end */
+@media (max-width: 1250px) {
+ .hero-s-img{
+  width: 386px;
+  height: 413px;
+ }
+ .best-you-m-div{
+  margin-right: 0;
+ }
+ .download-b-txt{
+  padding-right: 0;
+ }
+}
+@media (max-width: 950px) {
+  .menu-btn{
+    display: block;
+  }
+  .menu{
+    display: none;
+  }
+  .best-you-m-div{
+    flex-direction: column;
+   }
+   .best-you-details{
+    align-items: center;
+   }
+   .hero-s-img{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+   }
+   .all-sections{
+    margin: 32px 0;
+  }
+  .all-headings{
+    font-size: 32px;
+  }
+  .size-32{
+    font-size: 24px;
+  }
+  .all-para{
+    font-size: 16px;
+  }
+  .full-divs{
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .footer-contects-div{
+    flex-direction: column;
+    gap: 32px;
+  }
+  .footer-section{
+  padding: 80px 100px 30px 100px;
+  }
+  .download-b-full-div{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .overlay{
+  width: 100%;
+  height: 400px;
+  right: 0;
+  bottom: -50px;
+  }
+  .overlay-left{
+    width: 100%; 
+    height: 400px;
+    left: 0;
+    bottom: -50px;
+  }
+  .column-reverce{
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 750px) {
+ .footer-menu{
+  flex-direction: column;
+  gap: 32px;
+ }
+ .footer-section{
+  padding: 80px 0 30px 0px;
+  }
+}
